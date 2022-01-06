@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/aboutus.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="findus.html">Find Us</a></li>
+            <li><a href="designcourses.html">Design Courses</a></li>
+            <li><a href="computingcourses.html">Computing Courses</a></li>
+            <li><a href="informationforstudents.html">Student Information</a></li>
+            <li><a href="informationforstaff.html">Staff Information</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="learningresources.html">Resource Centre</a></li>
+            <li><a href="businessinformation.html">Information For Businesses</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        <div id="primary">
+            <div class="tbox" style="font-size: 1.2em;">
+                <h1>Facilities</h1>
+                <p>The College is located in the attractive and pleasantly refurbished Building. The building houses
+                    computing laboratories, and lecture/tutorial rooms. It has its own catering facilities and student
+                    work areas. There is also a car park to the back of the building.
+                </p>
+                <p>Our building has space of 9500m², houses over 240 staff and provides teaching space for more than
+                    1600 students.
+                </p>
+                <h2>Facilities include:</h2>
+                <p>• wi-fi technology</p>
+                <p>• pool teaching rooms, including classrooms to teach from 25 - 80 students</p>
+                <p>• specialist faculty facilities</p>
+                <p>• a double height lecture theatre at first and second floor level</p>
+                <p>• dramatic three-storey glass open atrium</p>
+                <p>• meeting rooms</p>
+                <p>• office accommodation</p>
+                <p>• specialist IT facilities</p>
+                <p>• reception desk area</p>
+                <p>• catering outlet</p>
+                <p>• parking for disabled badge holders</p>
+                <p>• cycle racks</p>
+                <p>• gallery</p>
+            </div>
+            <div class="imageslide">
+                <div class="slidebox">
+                    <img src="images/imgslide1.jpg" alt="" class="slide-img" />
+                </div>
+
+                <button class="but" onclick="next()">Next</button>
+                <button class="but" onclick="prev()">Prev</button>
+            </div>
+            <script src="js/imageslide.js"></script>
+
+        </div>
+        <div class="popupbackground">
+            <div class="popupcon">
+                <h3>ContactUs</h3>
+                <img src="images/X.png" alt="Close" class="close" style="float: right;">
+
+                <p>Tel:(01321) 2340 235
+                    Fax: (01321) 2340 236
+                    Email: info@cantorcollege.ac.uk
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="popupcontact" style="float: left;">
+            <a href="#" class="button" id="button">Contact Us</a>
+        </div>
+        <script>
+            document.getElementById("button").addEventListener("click", function () {
+                document.querySelector(".popupbackground").style.display = "flex";
+            })
+            document.querySelector(".close").addEventListener("click", function () {
+                document.querySelector(".popupbackground").style.display = "none";
+            })
+        </script>
+        <div id="picfootright">
+            <img class="foot-logo" src="images/logo.png" alt="Cantor">
+
+        </div>
+        <div id="copyright">
+            <h4>Copyright 2020</h4>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/course.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="findus.html">Find Us</a></li>
+            <li><a href="designcourses.html">Design Courses</a></li>
+            <li><a href="computingcourses.html">Computing Courses</a></li>
+            <li><a href="informationforstudents.html">Student Information</a></li>
+            <li><a href="informationforstaff.html">Staff Information</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="learningresources.html">Resource Centre</a></li>
+            <li><a href="businessinformation.html">Information For Businesses</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div id="container">
+        <div id="primary">
+            <div class="tbox">
+                <h1>Computing Courses</h1>
+                <p>The College offers a range of courses to suit applicants with varying backgrounds and educational
+                    abilities. At undergraduate level, there are single BSc Honours Degree courses in Computing,
+                    Business Computing, Software Engineering and Information Systems Design.
+
+                    Computing is also a subject offered on the Combined Honours Programme. Higher National Diploma and
+                    Certificate courses are available in Business Information Technology and Computing. Students taking
+                    up the HND in Computing can specialise in either Business Computing, Software Engineering or
+                    Information Systems Design.
+
+                    The courses are British Computer Society accredited and are highly relevant to modern industry. They
+                    are designed to prepare students for professional occupations in Computing and related fields. Many
+                    graduates continue their studies to pursue a higher degree such as an MSc. or PhD.
+                </p>
+
+            </div>
+            <div class="tbox2" style="float: right;">
+                <p>
+                    This is a list of all the courses that we supply for this area. If you wish to contact us about any
+                    of these make sure you use the Contact Us tab. so we can get ahold of you. if you require further
+                    information this can be found at the webpage below.
+                </p>
+                <button class="linkbut">
+                    <a href="https://www.shu.ac.uk/" style="text-decoration: none;">More Info</a>
+                </button>
+            </div>
+            <img src="images/computingimg.PNG" alt="Rules Link" style=>
+            <div class="popupbackground">
+                <div class="popupcon">
+                    <h3>ContactUs</h3>
+                    <img src="images/X.png" alt="Close" class="close" style="float: right;">
+
+                    <p>Tel:(01321) 2340 235
+                        Fax: (01321) 2340 236
+                        Email: info@cantorcollege.ac.uk
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="popupcontact" style="float: left;">
+            <a href="#" class="button" id="button">Contact Us</a>
+        </div>
+        <script>
+            document.getElementById("button").addEventListener("click", function () {
+                document.querySelector(".popupbackground").style.display = "flex";
+            })
+            document.querySelector(".close").addEventListener("click", function () {
+                document.querySelector(".popupbackground").style.display = "none";
+            })
+        </script>
+        <div id="picfootright">
+            <img class="foot-logo" src="images/logo.png" alt="Cantor">
+
+        </div>
+        <div id="copyright">
+            <h4>Copyright 2021</h4>
+        </div>
+
+</body>
+
+</html>

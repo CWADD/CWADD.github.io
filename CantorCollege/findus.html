@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/information.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="findus.html">Find Us</a></li>
+            <li><a href="designcourses.html">Design Courses</a></li>
+            <li><a href="computingcourses.html">Computing Courses</a></li>
+            <li><a href="informationforstudents.html">Student Information</a></li>
+            <li><a href="informationforstaff.html">Staff Information</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="learningresources.html">Resource Centre</a></li>
+            <li><a href="businessinformation.html">Information For Businesses</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div id="container">
+        <div id="primary">
+            <h1>Find Us</h1>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2380.1236981123343!2d-1.4704248839776775!3d53.37683618012776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48798283ed55ede5%3A0xeafd77a50b7ce297!2sSheffield%20Hallam%20University%20Cantor%20Building!5e0!3m2!1sen!2suk!4v1641271297802!5m2!1sen!2suk"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <p>Cantor College</p>
+            <p>Sheffield</p>
+            <p>SC4 2BB</p>
+        </div>
+        <div class="popupbackground">
+            <div class="popupcon">
+                <h3>ContactUs</h3>
+                <img src="images/X.png" alt="Close" class="close" style="float: right;">
+
+                <p>Tel:(01321) 2340 235
+                    Fax: (01321) 2340 236
+                    Email: info@cantorcollege.ac.uk
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="popupcontact" style="float: left;">
+            <a href="#" class="button" id="button">Contact Us</a>
+        </div>
+        <script>
+            document.getElementById("button").addEventListener("click", function () {
+                document.querySelector(".popupbackground").style.display = "flex";
+            })
+            document.querySelector(".close").addEventListener("click", function () {
+                document.querySelector(".popupbackground").style.display = "none";
+            })
+        </script>
+        <div id="picfootright">
+            <img class="foot-logo" src="images/logo.png" alt="Cantor">
+        </div>
+        <div id="copyright">
+            <h4>Copyright 2021</h4>
+        </div>
+    </footer>
+</body>
+
+</html>

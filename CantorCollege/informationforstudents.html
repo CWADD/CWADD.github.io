@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/information.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="findus.html">Find Us</a></li>
+            <li><a href="designcourses.html">Design Courses</a></li>
+            <li><a href="computingcourses.html">Computing Courses</a></li>
+            <li><a href="informationforstudents.html">Student Information</a></li>
+            <li><a href="informationforstaff.html">Staff Information</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="learningresources.html">Resource Centre</a></li>
+            <li><a href="businessinformation.html">Information For Businesses</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div id="container">
+        <div id="primary">
+            <h1>Information for Students</h1>
+            <h2>Academic Information</h2>
+            <p>Faculties - Links to all the Faculty and Departmental Offices with information on staff, courses and
+                events.</p>
+            <p>A to Z List of Departments - Departmental Homepages.</p>
+            <p>Library and Learning Resource Services - Information on LLRS services, access to the on-line catalogue,
+                links to external academic resources and guides to using IT to support your studies.</p>
+            <p>Our Academic Partners - Information on College links.</p>
+            <p>Research - links to the Research Centres, guide to research opportunities and help on finding research
+                funding.</p>
+            <h2>Administrative Support</h2>
+            <p>Academic Registry - Information provided by the Academic Registry, including Academic Calendars, Academic
+                Regulations, Module Catalogue, information on award ceremonies and tuition fees.</p>
+            <p>Student Guide to Regulations - General and Academic Regulations, World Wide Web Code of Practice, Rules
+                Governing the Use of LLRS facilities.</p>
+            <h2>Student Services</h2>
+            <p>Advisory and Counselling Centre - academic advice, help for international students, careers guidance,
+                personal counselling, student loans and access funds and support for students with disabilities/learning
+                difficulties.</p>
+            <p>Health Centre - guide to the services provided by the University Health Centre.</p>
+            <p>Multi-Faith Centre - information regarding the work of the Multi-Faith Centre.</p>
+            <p>Pre-School Centre - contact information regarding the University's child care facilities.</p>
+            <p>Sports Centre - booking arrangements and facilities.University Services.</p>
+            <p>Catering Services - guide to the catering facilities on campus.</p>
+            <p>Printing Services - information regarding services provided for students.</p>
+            <p>Student Accommodation Services - guide to University Accommodation and help on finding accommodation in
+                the private sector.</p>
+            <h2>Life at the University</h2>
+            <p>Arts Centre - what's on at the University's arts venues.</p>
+            <p>Students' Union - events and services provided by the Students' Union.</p>
+            <p>University Guide - a full guide to life at the University.</p>
+            <p>Campus Navigator - help with finding your way around campus.Communications.</p>
+            <p>Noticeboards - General, Classified, Events and Alumni noticeboards.</p>
+            <p>Student Email Search - database of student email addresses.</p>
+            <p>Staff Search - database of staff email addresses.</p>
+            <div id="lastinfo">
+                <p>A to Z List of Services - full A to Z list of University Services.</p>
+            </div>
+            <div class="popupbackground">
+                <div class="popupcon">
+                    <h3>ContactUs</h3>
+                    <img src="images/X.png" alt="Close" class="close" style="float: right;">
+
+                    <p>Tel:(01321) 2340 235
+                        Fax: (01321) 2340 236
+                        Email: info@cantorcollege.ac.uk
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="popupcontact" style="float: left;">
+            <a href="#" class="button" id="button">Contact Us</a>
+        </div>
+        <script>
+            document.getElementById("button").addEventListener("click", function () {
+                document.querySelector(".popupbackground").style.display = "flex";
+            })
+            document.querySelector(".close").addEventListener("click", function () {
+                document.querySelector(".popupbackground").style.display = "none";
+            })
+        </script>
+        <div id="picfootright">
+            <img class="foot-logo" src="images/logo.png" alt="Cantor">
+
+        </div>
+        <div id="copyright">
+            <h4>Copyright 2021</h4>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

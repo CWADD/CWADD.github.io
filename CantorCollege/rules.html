@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/information.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="findus.html">Find Us</a></li>
+            <li><a href="designcourses.html">Design Courses</a></li>
+            <li><a href="computingcourses.html">Computing Courses</a></li>
+            <li><a href="informationforstudents.html">Student Information</a></li>
+            <li><a href="informationforstaff.html">Staff Information</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="learningresources.html">Resource Centre</a></li>
+            <li><a href="businessinformation.html">Information For Businesses</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div id="container">
+        <div id="primary">
+            <h1>Rules</h1>
+            <h2>A. Access:</h2>
+            <p>i. The use of Learning Resources facilities is normally limited to use for the educational and other
+                purposes of the College.
+
+                ii. All individuals wishing to become members of the Learning Resources must comply with the
+                registration procedures. These include an undertaking to abide by Learning Resources rules.
+
+                iii. Individuals or organisations who are not eligible for membership but have good reason to use the
+                Learning Resources may be admitted, by arrangement, for purposes of study only. Procedures for seeking
+                admission are outlined in the External Services leaflet. Non-members must sign the Visitors' Book on
+                each visit, and may be required to produce written identification. Study use does not include access to
+                the College's Academic Network.
+
+                iv. ID cards issued by the College or Learning Resources are not transferable from one person to
+                another. The person named on each card is responsible for all items borrowed on it and is liable for the
+                cost of replacement of the card or items borrowed on it in the event of loss or damage.
+
+                Users of the Learning Resources are reminded that they must be willing to show ID cards or other
+                identification when requested to do so by College staff.
+            </p>
+            <h2>B. Use of Facilities</h2>
+
+            <p>i. The Learning Resources is not responsible for loss of, or damage to, the personal belongings of its
+                users and visitors. Users must take reasonable precautions against theft of their belongings, and must
+                not leave belongings unattended even for a very short period. Study tables/PCs may not be reserved by
+                depositing clothing or private property on the adjacent seat. Articles left unattended may be removed by
+                Learning Resources staff but will be returned on request at the Reception Desk.
+
+                ii. All users are required to conduct themselves quietly throughout the Learning Resources and
+                conversation between users must be kept to a minimum. No conversation is permitted in those parts of the
+                Learning Resources designated as "Silent" areas.
+
+                iii. Personal stereos may not be used in the Learning Resources.
+
+                iv. Mobile phones must be turned off in all Learning Resources study areas. Their use is permitted in
+                the enclosed stair wells of the Main Site building. Circumstances at the Clinical Site Libraries may
+                vary.
+
+                v. Users should not make use of mains electrical supplies to power their own equipment, including
+                external storage devices, unless the equipment has been tested and confirmed as meeting the required
+                Health & Safety standards. Written evidence of such compliance will be required.
+
+                vi. Eating and drinking are not permitted in any of the public areas of the Learning Resources.
+
+                vii. Action will be taken against any person misusing furniture, facilities or materials. Any such
+                person may be required to pay for the making good damage or loss.
+            </p>
+            <div class="popupbackground">
+                <div class="popupcon">
+                    <h3>ContactUs</h3>
+                    <img src="images/X.png" alt="Close" class="close" style="float: right;">
+
+                    <p>Tel:(01321) 2340 235
+                        Fax: (01321) 2340 236
+                        Email: info@cantorcollege.ac.uk
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <footer id="footer">
+
+        <div class="popupcontact" style="float: left;">
+            <a href="#" class="button" id="button">Contact Us</a>
+        </div>
+        <script>
+            document.getElementById("button").addEventListener("click", function () {
+                document.querySelector(".popupbackground").style.display = "flex";
+            })
+            document.querySelector(".close").addEventListener("click", function () {
+                document.querySelector(".popupbackground").style.display = "none";
+            })
+        </script>
+        <div id="picfootright">
+            <img class="foot-logo" src="images/logo.png" alt="Cantor">
+        </div>
+        <div id="copyright">
+            <h4>Copyright 2021</h4>
+        </div>
+    </footer>
+</body>
+
+</html>

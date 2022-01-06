@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html, body{
+    height: 100%;
+    
+}
+#container{
+    min-height: 100%;
+    background-color: #c9b277;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#primary{
+    overflow: auto;
+    padding-bottom: 100px;
+    text-align: center;
+}
+nav{
+    width:100%;
+    overflow:hidden;
+    height:50px;
+    background-color: #513e0d;
+}
+ul li{
+    list-style: none;
+    float: left;
+    line-height: 50px;
+}
+ul li a{
+    color:black;
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0 38px;
+    
+}
+h1{
+    padding: 40px;
+    font-size: 4.0em;
+}
+h2{
+    padding: 10px;
+    font-size: 2.0em;
+}
+p{
+    padding: 10px;
+    font-size:1.6em;
+}
+
+#businfop2{
+    padding-top:50px;
+}
+#lastinfo{
+    padding-bottom: 80px;
+}   
+
+#footer{
+    background-color: #513e0d;
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
+.foot-logo{
+    width: 100px;
+    float: right;
+}
+h4{
+    margin-left:45%;
+    line-height: 100px;
+    color: #9e833c;
+}
+.popupcontact{
+    margin-top: 50px;
+    margin-left: 25px;
+    float: left;
+    text-align: center;
+}
+.button{
+    background: #9e833c;
+    padding: 10px 15px;
+    transition: 0.4s;
+
+}
+.button:hover{
+    background-color:#513e0d ;
+}
+.popupbackground{
+    
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.popupcon{
+    height: 250px;
+    width: 500px;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+
+}
+.close{
+    cursor: pointer;
+}
